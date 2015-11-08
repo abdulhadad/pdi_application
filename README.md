@@ -22,5 +22,20 @@ ID NUMBER (38),
 NAME VARCHAR2 (6 Byte)
 );
 ```
-
-
+## meta2csv.ktr, tranform meta csv file to csv file
+Execute: 
+```
+pan.bat /file:"<path_to_ktr_here>\meta2csv.ktr" /param:"input_meta=<input_meta_here>" /param:"output_csv=<output_csv_here>" /level:Basic
+```
+Meta CSV input file must contain No and Content column. 
+### Example:
+**Meta CSV file META.csv**
+```
+No;Content
+1;ID
+2;NAME
+```
+**Output file CSV.csv**
+```
+ID;NAME
+```
