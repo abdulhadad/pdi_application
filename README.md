@@ -4,7 +4,7 @@ Execute: pan.bat /file:"<path_to_ktr_here>\csv2ddl.ktr" /param:"table_name=<tabl
 Put <table_name_here>.csv containing column "Column Name", "Data Type", put the file in the same directory as csv2ddl.ktr. 
 The generated file: <table_name_here>.txt containing DDL script 
 
-*Example:*
+### Example:
 **CSV file SIMPLE_TABLE.csv**
 ```
 Column Name;Data Type
