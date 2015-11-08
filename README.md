@@ -6,18 +6,18 @@ The generated file: <table_name_here>.txt containing DDL script
 
 *Example:*
 **CSV file SIMPLE_TABLE.csv**
----
+```
 Column Name;Data Type
 ID;NUMBER (38)
 NAME;VARCHAR2 (6 Byte)
----
+```
 
 **Output file SIMPLE_TABLE.txt**
----
+```
 CREATE TABLE SIMPLE_TABLE (
 ID NUMBER (38),
 NAME VARCHAR2 (6 Byte)
 );
----
+```
 
 
